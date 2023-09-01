@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
-        "strict": true,
-        "target": "ES6"
+        "strict": true, //turn on the strict mode
+        "target": "ES6", //compile the js code in ES6 (default is ES3)
+        "noImplicitAny": true, // will issue error on any implicit type any
+        "strictNullChecks": true, 
         
     }
 }
