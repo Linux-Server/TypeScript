@@ -1,10 +1,10 @@
 
 // This is an industrial-grade general-purpose greeter function:
-function greet(person, date) {
+function greet(person: string, date : Date) {
     console.log(`Hello ${person}, today is ${date}!`);
   }
    
-  greet("Brendan", "sam");
+  greet("Brendan", new Date());
 
 
   ///add a compile oprion --noEmitOnError to strict tyep checking
