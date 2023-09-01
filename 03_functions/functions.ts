@@ -1,18 +1,30 @@
 
-function add(num: number){
+function add(num: number):number{
     return num +10;
 }
 
-function getUpper(str:string){
+function getUpper(str:string):string{
     return str.toUpperCase()
 }
 
-function getStatus(status: boolean){
+
+//return type for normal function
+function getStatus(status: boolean): boolean{
     return status;
 }
 
-let loginUser = (emali:string, password:string, status:boolean)=>{
 
+// return type for arrow function
+let loginUser = (emali:string, password:string, status:boolean) : number=>{
+
+    return 10;
+
+}
+
+// when u return nothing u should annote the void return tyoe
+
+function consoleError(error:string): void{
+    console.log('nothing..');
 }
 
 
