@@ -28,6 +28,14 @@ function consoleError(error:string): void{
 }
 
 
+
+const createUser = (name:string, age?:number)=>{
+    console.log(name);
+}
+
+// ? operatoracception optional parameter of  age
+createUser("sam");
+
 add(22);
 getUpper("sam");
 getStatus(true);

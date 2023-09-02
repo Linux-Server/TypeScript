@@ -5,10 +5,21 @@ let user = {
     age:20
 }
 
-function createUser(user:user){
-    console.log(age);
+ //object as input and output from a function
+function createUser(data: {names:string,age:number}): {names:string,age:number}{
+    console.log(data.age);
+    return data;
 }
 
-createUser({names:"siya", age: 77});
+//object with optional parameter
+
+const optionalParams = (data: {names:string, age?:number}) =>{
+    console.log(data);
+}
+
+optionalParams({names:"killer"})
+optionalParams({names:"killer", age:66})
+
+createUser(user);
 
 export{}
