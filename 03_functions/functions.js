@@ -11,6 +11,8 @@ function getStatus(status) {
 }
 var loginUser = function (emali, password, status) {
 };
+
+
 add(22);
 getUpper("sam");
 getStatus(true);
