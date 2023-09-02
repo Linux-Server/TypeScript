@@ -5,8 +5,15 @@ var user = {
     names: "Sachin",
     age: 20
 };
-function createUser(_a) {
-    var string = _a.names, number = _a.age;
-    console.log(age);
+//object as input and output from a function
+function createUser(data) {
+    console.log(data.age);
+    return data;
 }
-createUser({ names: "siya", age: 77 });
+//object with optional parameter
+var optionalParams = function (data) {
+    console.log(data);
+};
+optionalParams({ names: "killer" });
+optionalParams({ names: "killer", age: 66 });
+createUser(user);
