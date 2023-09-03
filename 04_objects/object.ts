@@ -12,6 +12,7 @@ function createUser(data: {names:string,age:number}): {names:string,age:number}{
 }
 
 //object with optional parameter
+//
 
 const optionalParams = (data: {names:string, age?:number}) =>{
     console.log(data);
