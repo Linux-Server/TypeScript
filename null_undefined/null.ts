@@ -6,7 +6,11 @@ function createPerson(name:string | null){
      */
     console.log(name!.toUpperCase());
 }
-//null chnaged
+
+
+// null test
+
+
 
 createPerson(null);
 
